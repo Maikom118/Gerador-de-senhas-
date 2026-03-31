@@ -24,17 +24,3 @@ O projeto foi construído utilizando o tripé fundamental do desenvolvimento Web
 
 Autor
 Desenvolvido por Maikom.
-
-## 📦 Como rodar o projeto
-
-```bash
-# 1. Clone o repositório
-$ git clone [https://github.com/Maikom118/Gerador-de-senhas-.git](https://github.com/Maikom118/Gerador-de-senhas-.git)
-
-# 2. Acesse a pasta do projeto
-$ cd Gerador-de-senhas-
-
-# 3. Abra o arquivo principal no navegador
-# No Windows/Linux/Mac basta dar um duplo clique no arquivo index.html
-
-
