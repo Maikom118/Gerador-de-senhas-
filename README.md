@@ -13,6 +13,5 @@ Abra `index.html` no navegador.
 
 - Gerar senha segura
 - Digitar sua propria senha
-- Avaliar forca da senha em tempo real
+- Avaliar força da senha em tempo real
 - Copiar senha
-- Tema claro/escuro
