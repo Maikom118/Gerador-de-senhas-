@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+  <div class="bg-grid"></div>
+
+  <main class="app">
+    <header class="hero reveal">
+      <div class="hero-top">
+        <p class="eyebrow">SECURITY TOOLKIT</p>
+        <button id="themeToggle" class="btn ghost theme-toggle" type="button" aria-label="Alternar tema">Tema escuro</button>
+      </div>
+      <h1>Password Lab</h1>
+      <p class="subtitle">Gere senhas fortes e avalie seguranca em segundos.</p>
+    </header>
+
+    <section class="panel reveal delay-1" aria-labelledby="gerador-title">
+      <div class="panel-head">
+        <h2 id="gerador-title">Gerador</h2>
+        <span class="chip">Seguro</span>
+      </div>
+
+      <label for="length">Tamanho: <strong id="lengthValue">16</strong></label>
+      <input id="length" type="range" min="8" max="64" value="16" />
+
+      <label class="inline-option" for="symbols">
+        <input id="symbols" type="checkbox" checked />
+        Incluir simbolos
+      </label>
+
+      <div class="row">
+        <button id="generateBtn" class="btn primary">Gerar senha</button>
+        <button id="copyBtn" class="btn ghost" type="button">Copiar</button>
+      </div>
+
+      <label for="generatedPassword">Sua senha (gerada ou digitada por voce)</label>
+      <input id="generatedPassword" type="text" placeholder="Digite sua senha aqui ou clique em Gerar senha" />
+      <button id="useInEvaluatorBtn" class="btn ghost" type="button">Usar no avaliador</button>
+      <p id="copyStatus" class="hint" aria-live="polite"></p>
+    </section>
+
+    <section class="panel reveal delay-2" aria-labelledby="avaliador-title">
+      <div class="panel-head">
+        <h2 id="avaliador-title">Avaliador</h2>
+        <span id="strengthChip" class="chip neutral">Aguardando</span>
+      </div>
+
+      <label for="passwordInput">Digite uma senha</label>
+      <input id="passwordInput" type="text" placeholder="Ex: MinhaSenha123!" />
+
+      <div class="meter-wrap" aria-label="Nivel de forca da senha">
+        <div id="meterFill" class="meter-fill"></div>
+      </div>
+
+      <ul id="feedbackList" class="feedback-list"></ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
