@@ -23,4 +23,4 @@ O projeto foi construído utilizando o tripé fundamental do desenvolvimento Web
 * **HTML (12.4%):** 
 
 Autor
-Desenvolvido por Maikom.
+Desenvolvido por Maikom118.
