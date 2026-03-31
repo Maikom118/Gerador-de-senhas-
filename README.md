@@ -17,9 +17,13 @@
 
 O projeto foi construído utilizando o tripé fundamental do desenvolvimento Web:
 
-* **HTML5:** Estrutura semântica.
-* **CSS3:** Estilização e layout moderno.
-* **JavaScript (ES6+):** Lógica de geração aleatória e manipulação do DOM.
+* **Python (25.5%):** 
+* **JavaScript (37.0%):** 
+* **CSS (25.1%):** 
+* **HTML (12.4%):** 
+
+Autor
+Desenvolvido por Maikom.
 
 ## 📦 Como rodar o projeto
 
@@ -33,5 +37,4 @@ $ cd Gerador-de-senhas-
 # 3. Abra o arquivo principal no navegador
 # No Windows/Linux/Mac basta dar um duplo clique no arquivo index.html
 
-Autor
-Desenvolvido por Maikom.
+
