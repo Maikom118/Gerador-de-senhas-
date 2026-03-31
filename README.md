@@ -17,10 +17,10 @@
 
 O projeto foi construído utilizando o tripé fundamental do desenvolvimento Web:
 
-* **Python (25.5%):** 
-* **JavaScript (37.0%):** 
-* **CSS (25.1%):** 
-* **HTML (12.4%):** 
+* **Python** 
+* **JavaScript** 
+* **CSS** 
+* **HTML** 
 
 Autor
 Desenvolvido por Maikom118.
